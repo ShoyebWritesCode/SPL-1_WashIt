@@ -1,0 +1,77 @@
+body {
+  font-family: 'Baloo 2', cursive;
+  background-color: aliceblue;
+  margin: 0px;
+  padding: 0px;
+  background-size: cover;
+position:fixed;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+}
+
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 10px;
+  top: 20px;
+}
+
+.mid {
+  display: block;
+  width: 60%;
+  margin: auto auto;
+}
+
+.right {
+  position: absolute;
+  right: 10px;
+  display: inline-block;
+}
+
+.navbar {
+  display: inline-block;
+  position: absolute;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+}
+
+.navbar li a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 30px;
+}
+
+.navbar li a:hover {
+  color: #0da8d2;
+  text-decoration: overline;
+}
+
+.left div {
+  text-align: center;
+  line-height: 20px;
+  font-size: 50px;
+  color: white;
+}
+
+.header {
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  border: 2px solid rgb(255, 255, 255);
+  background-image: linear-gradient(rgb(255, 255, 255), rgb(254, 254, 254));
+  border-radius: .15ch;
+
+}
+
+.iframe{
+	position: absolute;
+	margin-top: 61px;
+	width: inherit;
+	height: 90%;
+	border: none;
+}
