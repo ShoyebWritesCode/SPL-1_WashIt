@@ -5,16 +5,16 @@
     box-sizing:content-box;
 }
 body{
-    background: #e4eff1;
+    background: #ea2c2c;
 }
 .form-container{
-    height: 800px;
-    width: 800px;
+    height: 400px;
+    width: 200px;
     margin: 50px auto;
 }
 .form-container form{
-    height:600px;
-    width:600px;
+    height:200px;
+    width:200px;
     margin:auto;
     display: flex;
     flex-direction: column;
@@ -44,11 +44,11 @@ body{
 }
 .bttn {
     padding:20px;
-    font-size: 100px;
-    background: #0da8d2;
+    font-size: 30px;
+    /* background: #0da8d2; */
     border: none;
     border-radius: 30px;
- text-decoration-color: white;
+ text-decoration-color: rgb(13, 94, 131);
     text-align: center;
     text-shadow: #e4eff1;
     
