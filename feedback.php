@@ -23,11 +23,9 @@ include "dummy.php"
             <input type="email"placeholder="e-mail" name="email"  id="email">
             <label for="Phone Number">Phone number</label>
             <input type="text" name="phonenumber"placeholder="Phone-number" id="phonenumber">
-            <label for="Order ID">Order ID</label>
-            <input type="text" name="Order ID"placeholder="Order ID" id="Order ID">
             <label for="Your Message">Your Message</label>
             <textarea name="message" id="message" cols="20" rows="8" placeholder="Enter your message here"></textarea>
-            <button type="submit" value="submit" class="bttn" name="feedback_user">submit</button>
+            <button type="submit" value="submit" class="bttn" name="feedback_user">
         </form>
     </div>
 
@@ -35,7 +33,7 @@ include "dummy.php"
     <?php
     if(isset($_POST['feedback_user']))
     {
-        $sql="INSERT INTO `feedback` VALUES('$_SESSION[firstName]','$_POST[email]','$_POST[phonenumber]','$_POST[message]') ;";
+        $sql="INSERT INTO `feedback` VALUES('$_SESSION[username]','$_POST[email]','$_POST[phonenumber]','$_POST[message]') ;";
         mysqli_query($db,$sql);
        
     }
