@@ -16,7 +16,7 @@
   	<?php include('errors.php'); ?>
   	<div class="input-group">
   		<label>Username</label>
-  		<input type="text" name="username" >
+  		<input type="text" name="firstName" >
   	</div>
   	<div class="input-group">
   		<label>Password</label>
@@ -27,6 +27,7 @@
   	</div>
   	<p>
   		Not yet a member? <a href="register.php">Sign up</a>
+		<br> Are you an admin? <a href="staffsignin.php">Click here</a>
   	</p>
   </form>
 </body>
